@@ -1,0 +1,12 @@
+{
+  "name": "fahim-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "start": "node api/matches.js"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

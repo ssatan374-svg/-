@@ -5,7 +5,8 @@
 
 import { useState, useEffect, useCallback } from "react";
 
-const API_BASE = "/api/matches"; // يتوجه للسيرفر الوسيط تلقائياً
+const API_BASE = "https://illustrous-manifestation-production.up.railway.app/api/matches";
+
 
 // ── جلب البيانات الأساسي ──
 async function apiFetch(params) {

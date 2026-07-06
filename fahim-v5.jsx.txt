@@ -1,4 +1,6 @@
-import { useState, useEffect, useCallback } from "react";
+importconst API = "https://poetic-enchantment-production-0690.up.railway.app/api/matches";
+
+{ useState, useEffect, useCallback } from "react";
 
 const DARK={bg:"#0a0f1e",card:"#0f1928",card2:"#1a2540",border:"#1e2d4a",text:"#ffffff",sub:"#6a8aaa",accent:"#00e5a0",live:"#ff4d4d",gold:"#fccb00",blue:"#4db8ff"};
 const LIGHT={bg:"#f0f4f8",card:"#ffffff",card2:"#e8edf4",border:"#d0dae8",text:"#0a0f1e",sub:"#5a7a9a",accent:"#00b87a",live:"#e03030",gold:"#e0a800",blue:"#0088cc"};
